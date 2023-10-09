@@ -16,7 +16,7 @@ chckBtn.addEventListener('click', () => {
         // ansq1.textContent = 'plz enter valid input';
         alert('plz enter valid input');
     }
-    val.value = 'none';
+    val.value = '';
 });
 
 let attempt = 3;
