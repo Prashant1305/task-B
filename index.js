@@ -3,12 +3,12 @@ const chckBtn = document.querySelector("#checkButton");
 chckBtn.addEventListener('click', () => {
     const val = document.querySelector("#evenOdd");
     const ansq1 = document.querySelector("#evenOddans")
-    if (val.value) {
+    if (val.value && Math.ceil(val.value) == val.value) {
         if (val.value % 2 == 0) {
-            ansq1.textContent = 'True';
+            ansq1.textContent = 'Even';
         }
         else {
-            ansq1.textContent = 'False';
+            ansq1.textContent = 'Odd';
         }
     }
     else {
