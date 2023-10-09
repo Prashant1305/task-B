@@ -10,10 +10,8 @@ chckBtn.addEventListener('click', () => {
         else {
             ansq1.textContent = 'False';
         }
-        console.dir(val.value);
     }
     else {
-        // ansq1.textContent = 'plz enter valid input';
         alert('plz enter valid input');
     }
     val.value = '';
@@ -46,7 +44,6 @@ randBtn.addEventListener('click', (e) => {
         e.target.textContent = `${attempt} attempts remaining`
     }
     else {
-        // ans.textContent = 'Enter valid input';
         alert('plz enter valid input');
     }
     inp.value = '';
@@ -75,8 +72,6 @@ fruitbtn.addEventListener('click', () => {
             lis.append(li);
         }
         op.append(lis);
-
-        console.log(inp);
     }
     else {
         alert('invalid input');
